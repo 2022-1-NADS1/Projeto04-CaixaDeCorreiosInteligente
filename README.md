@@ -11,6 +11,11 @@
 
 <img src="./imagens/caixaInteligente.jpeg">
 
+
+ ## 💻 Layout do site 
+
+ <img src="./imagens/LayoutSite.png">
+
 ## Motivação
 
 Essa aplicação foi feita para entrega do projeto indisciplinar para a instituição de ensino [FECAP](https://www.fecap.br/)
