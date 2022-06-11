@@ -48,7 +48,7 @@ Serial.println(WiFi.localIP());
   server.begin();
   digitalWrite(pinTranca, LOW);
   scale.begin(LOADCELL_DOUT_PIN, LOADCELL_SCK_PIN); //Definição de porta
-  scale.set_scale(-320.043); //Definição da tara da balança
+  scale.set_scale(-300.321); //Definição da tara da balança
   scale.tare();
 }
 
@@ -74,9 +74,10 @@ String carta(){
   }
   else
  {
-    delay(1000);  
+    delay(3000);  
     digitalWrite(pinTranca, LOW);
     package = "Você tem encomenda.";
+    scale.power_down();
     return String(pesoEncomenda);
  }
  }
@@ -91,6 +92,7 @@ void resetar() {
   digitalWrite(LED,HIGH);
   delay(500);
   digitalWrite(LED,LOW);
+  scale.power_up();
  }
 
 void abrirPorta() {
@@ -101,11 +103,11 @@ void abrirPorta() {
   
 
 void loop() {
-  pesoEncomenda = scale.get_units(), 1;
   weight = peso();
   letter = carta();
 
- if (pesoEncomenda < 50){
+ if (pesoEncomenda <= 70){
+  pesoEncomenda = scale.get_units(), 1;
  if(digitalRead(botaoTranca) == HIGH) {
      abrirPorta();
   }
