@@ -22,6 +22,15 @@
 
 Essa aplicação foi feita para entrega do projeto indisciplinar para a instituição de ensino [FECAP](https://www.fecap.br/)
 
+
+## Integrantes
+
+- [Débora Souza Matos - RA: 22023906](https://github.com/sm1dbr) 
+- [João Fernando de Lima Gonçalves - RA: 22023774](https://github.com/Joao-F3rnando) 
+- [Lucas Holanda Cardoso - RA: 19020682]() 
+- [Mateus Quintino V. dos Santos - RA: 22023854](https://github.com/Mateus-Kent) 
+- [Raquel Anicio dos Santos - RA: 21022954](https://github.com/rqands) 
+
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE)
@@ -51,6 +60,11 @@ Website: https://www.arduino.cc/
 HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML. HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo.
 
 Website: https://developer.mozilla.org/pt-BR/docs/Web/HTML
+
+### CSS 
+CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo (en-US) usada para descrever a apresentação de um documento escrito em HTML ou em XML (incluindo várias linguagens em XML como SVG, MathML ou XHTML). O CSS descreve como elementos são mostrados na tela, no papel, na fala ou em outras mídias.
+
+Website: https://developer.mozilla.org/pt-BR/docs/Web/CSS
 
 ### ESP8266WebServer
 
