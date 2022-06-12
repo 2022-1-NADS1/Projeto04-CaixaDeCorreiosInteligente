@@ -34,6 +34,12 @@ C é uma linguagem de programação compilada de propósito geral, estruturada, 
 
 Website: https://docs.microsoft.com/pt-br/cpp/c-language/?view=msvc-170
 
+### C++
+
+C++ é uma linguagem de programação compilada multi-paradigma e de uso geral. Desde os anos 1990 é uma das linguagens comerciais mais populares, sendo bastante usada também na academia por seu grande desempenho e base de utilizadores.
+
+Website: https://docs.microsoft.com/pt-br/cpp/?view=msvc-170
+
 ### Arduino IDE
 
 Arduino Integrated Development Environment é uma aplicatição de plataforma cruzada, escrito em funções de C e C ++. É usado para escrever e fazer upload de programas em placas compatíveis com Arduino, mas também, com a ajuda de núcleos de terceiros, outras placas de desenvolvimento de fornecedores.
